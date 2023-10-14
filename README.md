@@ -16,7 +16,15 @@ To run this app, you need to have the following:
 
 To install the required libraries, you can use the following command:
 
-```bash
-pip install streamlit langchain ctransformers```
+
+```pip install streamlit langchain ctransformers```
+
 
 ## To download the model file, you can use the following command:
+```wget https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main/models/llama-2-7b-chat.ggmlv3.q8_0.bin```
+
+
+## Usage
+To run the app, you can use the following command:
+```streamlit run app.py```
+The app will open in your browser and you can start using it.
